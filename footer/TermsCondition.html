@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms & Conditions - DVAGO</title>
+  <link rel="stylesheet" href="/headerFooter.css">
+   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/25/25231.png" type="image/png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+   
+
+ 
+.terms-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 8px;
+}
+
+.terms-container h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #0f9d58;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.terms-container h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #0f9d58;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 6px;
+}
+
+.terms-container p {
+  margin: 12px 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.terms-container ul {
+  margin: 12px 0 12px 20px;
+}
+
+.terms-container ul li {
+  margin-bottom: 8px;
+}
+
+.terms-container strong {
+  color: #111;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .terms-container {
+    margin: 20px;
+    padding: 15px 20px;
+  }
+  .terms-container h1 {
+    font-size: 22px;
+  }
+  .terms-container h2 {
+    font-size: 18px;
+  }
+}
+
+ .footer {
+  background:rgb(16, 187, 16);
+  color: white;
+  padding: 50px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: flex-start;
+}
+
+
+
+.footer-logo img {
+  width: 180px;
+  
+}
+
+.footer-logo h2 {
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  margin-left: 170px;
+  margin-top: -140px;
+}
+
+.footer-description{
+   margin-left: 170px;
+  margin-top: -110px;
+
+}
+
+
+.footer-col h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-col p {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.social-links a {
+  color:white;
+  margin-right: 12px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: black;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 14px;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-logo {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-logo img {
+    margin: 0 auto 15px;
+  }
+
+  .footer-logo h2 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+
+  .footer-description {
+    margin: 0 auto 15px;
+    font-size: 14px;
+    max-width: 90%;
+  }
+
+  .footer-col {
+    margin-bottom: 20px;
+  }
+
+  .social-links {
+    margin-top: 10px;
+  }
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  color: #25D366;
+  font-size: 55px;
+  z-index: 9999;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.2);
+}
+
+/* Hide WhatsApp icon when footer is visible */
+footer:hover ~ .whatsapp-float,
+.footer:hover ~ .whatsapp-float {
+  display: none !important;
+}
+
+
+  </style>
+</head>
+<body>
+
+     <!-- Navbar -->
+  <header class="navbar">
+    <a href="/index.html" class="brand">
+    <img src="/images/navlogo.png" alt="Site Logo" /></a>
+
+    <button class="menu-toggle" aria-label="Toggle menu" id="menuToggle">☰</button>
+
+    <nav class="nav-center" aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="/medicine.html">Medicine</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+   <div class="search-wrap">
+    <form id="searchForm">
+      <input id="searchInput" type="search" placeholder="Search medicines..." />
+      <button type="submit">Search</button>
+    </form>
+  </div>
+</header>
+  </header>
+
+  <!-- Mobile menu (hidden on larger screens) -->
+ <div class="mobile-menu" id="mobileMenu">
+  <ul class="nav-links">
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/medicine.html">Medicine</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+  </ul>
+  
+ <div class="search-wrap-mobile">
+    <form id="searchFormMobile">
+      <input id="searchInputMobile" type="search" placeholder="Search medicines..." />
+      <button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+ <div class="terms-container">
+  <h1>Terms & Conditions</h1>
+
+  <h2>Overview</h2>
+  <p>This website and WhatsApp ordering service are operated by <strong>Al Rehman Pharmacy</strong>. Throughout the site and chat, the terms <strong>we</strong>, <strong>us</strong>, and <strong>our</strong> refer to Al Rehman Pharmacy. By placing an order with us through WhatsApp or our website, you agree to follow the terms and conditions below.</p>
+
+  <h2>1. Orders via WhatsApp</h2>
+  <p>All orders placed through WhatsApp are considered confirmed once we acknowledge your message. Please provide accurate details (name, address, and phone number) to ensure smooth delivery.</p>
+  <p>Prescription medicines require a valid prescription. We may ask you to share it via WhatsApp or email before confirming your order.</p>
+
+  <h2>2. Pricing and Availability</h2>
+  <p>All prices are subject to change without prior notice. Product availability may vary. In case an item is out of stock, we will notify you promptly.</p>
+
+  <h2>3. Payments</h2>
+  <p>Payments can be made via cash on delivery (COD) or other available options. Please check payment confirmation before receiving your order.</p>
+
+  <h2>4. Delivery Policy</h2>
+  <p>We deliver orders within our service areas. Delivery time may vary depending on your location and order type. You will be informed of the estimated delivery time once your order is confirmed.</p>
+
+  <h2>5. Returns and Refunds</h2>
+  <p>Due to the nature of pharmaceutical products, returns are accepted only if the product is damaged, expired, or incorrect. Please report issues within 24 hours of delivery.</p>
+
+  <h2>6. Personal Information</h2>
+  <p>Your personal information shared through WhatsApp or the website is kept confidential and used only for processing your order.</p>
+
+  <h2>7. Contact Us</h2>
+<p>
+  For any questions or order-related support, you can reach us through:
+</p>
+<ul>
+  <li>
+    💬 <strong>WhatsApp:</strong>
+    <a href="https://wa.me/923194932417" target="_blank">Chat with us</a>
+  </li>
+  <li>
+    📧 <strong>Email:</strong>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alrehman14@gmail.com" target="_blank">
+      alrehmanpharmacy@gmail.com
+    </a>
+  </li>
+  <li>
+    📝 <strong>Contact Form:</strong>
+    <a href="/contact.html">Visit our Contact Page</a>
+  </li>
+</ul>
+<p>
+  We’ll be happy to assist you with any queries related to your orders, products, or prescriptions.
+</p>
+</div>
+
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/+923194932417" class="whatsapp-float" target="_blank">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Logo -->
+    <div class="footer-logo">
+      <img src="/images/footerlogo-removebg-preview.png" alt="Logo">
+      <div class="footer-description">
+        <h3>Pharmacy Experts</h3>
+        <p>Karachi's most trusted pharmacy..</p>
+        <h4>Follow us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <ul>
+        <li><a href="/medicine.html">Medicine</a></li>
+        <li><a href="/medicine.html">A to Z Medicine</a></li>
+        <li><a href="/medicine.html">Personal Care</a></li>
+      </ul>
+    </div>
+
+    <!-- Support -->
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="/footer/TermsCondition.html">Terms Of Service</a></li>
+        <li><a href="/footer/Shipping.html">Shipping Policy</a></li>
+        <li><a href="/contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <p><i class="fas fa-map-marker-alt"></i> Modern Society MCHS, Karachi, Pakistan</p>
+
+      <p>
+        <i class="fas fa-phone"></i>
+        <a href="https://wa.me/923194932417" target="_blank" style="color: inherit; text-decoration: none;">
+          +92319 4932417
+        </a>
+      </p>
+
+      <p>
+        <i class="fas fa-envelope"></i>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alrehman14@gmail.com" target="_blank" style="color: inherit; text-decoration: none;">
+          alrehman14@gmail.com
+        </a>
+      </p>
+    </div>
+
+  </div> <!-- 🔹 Yahan footer-container close hua -->
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <p>© 2025 Al Rehman Pharmacy. All Rights Reserved.</p>
+  </div>
+</footer>
+
+ <script src="/app.js"></script>
+
+
+
+<script>
+   window.addEventListener("scroll", function() {
+    const footer = document.querySelector("footer");
+    const whatsapp = document.querySelector(".whatsapp-float");
+    const footerRect = footer.getBoundingClientRect();
+
+    if (footerRect.top < window.innerHeight) {
+      whatsapp.style.opacity = "0";
+      whatsapp.style.pointerEvents = "none";
+    } else {
+      whatsapp.style.opacity = "1";
+      whatsapp.style.pointerEvents = "auto";
+    }
+  });
+</script>
+
+</body>
+</html>
